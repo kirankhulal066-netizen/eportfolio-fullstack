@@ -1,0 +1,2424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional ePortfolio of Kiran Khulal, a graduating Junior Full Stack Developer showcasing HTML, CSS, Bootstrap, and JavaScript skills.">
+  <title>Kiran Khulal | Junior Full Stack Developer Portfolio</title>
+  
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Custom CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. NAVIGATION BAR
+       ========================================== -->
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top py-3">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-custom d-flex align-items-center" href="#home">
+        <span class="gradient-text font-monospace">Kiran khulal</span>
+      </a>
+      <button class="navbar-toggler border-0 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#fullstack">Full Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#html">HTML</a></li>
+          <li class="nav-item"><a class="nav-link" href="#css">CSS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bootstrap">Bootstrap</a></li>
+          <li class="nav-item"><a class="nav-link" href="#javascript">JavaScript</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <!-- Theme Toggle Switch -->
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="themeToggle">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider">
+                  <i class="bi bi-sun-fill slider-icon sun"></i>
+                  <i class="bi bi-moon-fill slider-icon moon"></i>
+                </span>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section id="home" class="hero-wrapper section-padding overflow-hidden">
+    <!-- Ambient blurred background shapes for visual aesthetics -->
+    <div class="hero-shape shape-1"></div>
+    <div class="hero-shape shape-2"></div>
+    
+    <div class="container">
+      <div class="row align-items-center justify-content-between g-5">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h5 class="text-uppercase tracking-wider text-muted mb-3 font-monospace">Welcome to my ePortfolio</h5>
+          <h1 class="display-3 fw-bold mb-3">Hi, I'm <span class="gradient-text">Kiran Khulal</span></h1>
+          <h2 class="h3 fw-medium mb-4 text-secondary">
+            I am a <span class="typed-text text-primary"></span>
+          </h2>
+          <p class="lead mb-4 text-secondary">
+            I am a graduating Junior Full Stack Developer with a passion for building modern and responsive web applications. I enjoy creating user-friendly websites, developing efficient backend systems, and continuously improving my skills in web development.
+          </p>
+          <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+            <a href="#contact" class="btn btn-gradient">Get In Touch <i class="bi bi-arrow-right ms-1"></i></a>
+            <a href="#contact" class="btn btn-outline-custom">Let's Connect</a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="hero-img-container mt-5 mt-lg-0">
+            <div class="hero-img-ring"></div>
+            <!-- Dynamic profile avatar loaded from assets -->
+            <img src="./assets/images/developer_avatar.png" alt="Kiran Khulal - Developer Portrait" class="hero-img-placeholder">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. ABOUT SECTION
+       ========================================== -->
+  <section id="about" class="section-padding bg-secondary-dim">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">About <span class="gradient-text">Me</span></h2>
+          <div class="border-bottom border-primary border-3 mx-auto mb-4" style="width: 60px;"></div>
+        </div>
+      </div>
+      
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6">
+          <div class="glass-card h-100">
+            <h3 class="h4 mb-4 font-monospace text-primary">&lt;My Journey/&gt;</h3>
+            <p>
+              Hello! I am a passionate web developer currently studying computer science. My interest in software development started when I created my first webpage and learned how coding can bring ideas to life. Since then, I have continued learning and improving my full stack development skills.
+            </p>
+            <p>
+              I enjoy building clean and responsive websites that work smoothly with backend systems and databases. I also like solving coding problems, designing simple user-friendly layouts, and working on projects that improve my practical skills and experience.
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="glass-card h-100">
+            <h3 class="h4 mb-4 font-monospace text-primary">&lt;Skills & Technologies/&gt;</h3>
+            <p class="mb-4">Here are the technologies I've been working with recently to build production-ready applications:</p>
+            
+            <div class="skills-wrapper">
+              <h5 class="h6 mb-3 text-secondary text-uppercase tracking-wider font-monospace">Frontend Tiers</h5>
+              <div class="mb-4">
+                <span class="skill-badge"><i class="bi bi-filetype-html text-danger"></i> HTML5</span>
+                <span class="skill-badge"><i class="bi bi-filetype-css text-primary"></i> CSS3</span>
+                <span class="skill-badge"><i class="bi bi-bootstrap-fill text-purple" style="color: #7952b3;"></i> Bootstrap 5</span>
+                <span class="skill-badge"><i class="bi bi-filetype-js text-warning"></i> JavaScript (ES6+)</span>
+              </div>
+
+              <h5 class="h6 mb-3 text-secondary text-uppercase tracking-wider font-monospace">Backend & DB Tiers</h5>
+              <div class="mb-4">
+                <span class="skill-badge"><i class="bi bi-node-plus text-success"></i> Node.js</span>
+                <span class="skill-badge"><i class="bi bi-server text-info"></i> Express.js</span>
+                <span class="skill-badge"><i class="bi bi-database-fill text-info"></i> PostgreSQL</span>
+                <span class="skill-badge"><i class="bi bi-braces-asterisk text-warning"></i> RESTful APIs</span>
+              </div>
+
+              <h5 class="h6 mb-3 text-secondary text-uppercase tracking-wider font-monospace">Developer Tools</h5>
+              <div>
+                <span class="skill-badge"><i class="bi bi-git text-orange" style="color: #f1502f;"></i> Git & GitHub</span>
+                <span class="skill-badge"><i class="bi bi-terminal-fill text-muted"></i> Command Line</span>
+                <span class="skill-badge"><i class="bi bi-layout-text-sidebar-reverse text-secondary"></i> VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. WHAT IS FULL STACK? SECTION
+       ========================================== -->
+  <section id="fullstack" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">What is <span class="gradient-text">Full Stack</span>?</h2>
+          <p class="text-secondary">Full stack development encompasses both front-end (client-side) and back-end (server-side) engineering, combining structural logic with relational storage interfaces.</p>
+          <div class="border-bottom border-primary border-3 mx-auto" style="width: 60px;"></div>
+        </div>
+      </div>
+
+      <!-- Conceptual Stack Cards -->
+      <div class="row g-4 mb-5">
+        <div class="col-md-4">
+          <div class="glass-card stack-card h-100">
+            <div class="stack-icon-wrapper">
+              <i class="bi bi-layout-wtf"></i>
+            </div>
+            <h4 class="h5 fw-bold mb-3">1. Frontend (Client)</h4>
+            <p class="text-secondary small mb-0">
+              The user interface that renders in the web browser. Built with HTML for structure, CSS for layout aesthetics, and JavaScript for client interactivity.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glass-card stack-card h-100">
+            <div class="stack-icon-wrapper">
+              <i class="bi bi-cpu-fill"></i>
+            </div>
+            <h4 class="h5 fw-bold mb-3">2. Backend (Server)</h4>
+            <p class="text-secondary small mb-0">
+              The hidden logic center. Built with servers (Node.js/Express) to route endpoints, process security tokens, validate inputs, and orchestrate calculations.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="glass-card stack-card h-100">
+            <div class="stack-icon-wrapper">
+              <i class="bi bi-database-fill-gear"></i>
+            </div>
+            <h4 class="h5 fw-bold mb-3">3. Database (Storage)</h4>
+            <p class="text-secondary small mb-0">
+              Where persistent data lives. Using databases (PostgreSQL/SQL) to index user logs, project archives, and information tables securely.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive API Simulator -->
+      <div class="glass-card">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <h4 class="fw-bold mb-3">Interactive Network Pipeline Simulator</h4>
+            <p class="text-secondary">
+              See how a frontend client communicates with a backend server and retrieves data from a database in real time. Click the button below to dispatch a mock API call and track the packet flow.
+            </p>
+            <button id="simulateApiBtn" class="btn btn-gradient mt-2">
+              <i class="bi bi-play-circle-fill me-2"></i> Simulate API Call
+            </button>
+          </div>
+          
+          <div class="col-lg-6">
+            <!-- Simulated Flow Track -->
+            <div class="stack-flow-container">
+              <div class="flow-connections">
+                <div id="flowPacket" class="flow-packet"></div>
+                
+                <div id="nodeFrontend" class="flow-node">
+                  <div class="flow-node-circle"><i class="bi bi-laptop"></i></div>
+                  <span class="small font-monospace">Frontend</span>
+                </div>
+                
+                <div class="flow-line-connector"></div>
+                
+                <div id="nodeBackend" class="flow-node">
+                  <div class="flow-node-circle"><i class="bi bi-hdd-network"></i></div>
+                  <span class="small font-monospace">Backend API</span>
+                </div>
+                
+                <div class="flow-line-connector"></div>
+                
+                <div id="nodeDatabase" class="flow-node">
+                  <div class="flow-node-circle"><i class="bi bi-database"></i></div>
+                  <span class="small font-monospace">Database</span>
+                </div>
+              </div>
+
+              <!-- Simulator Console Terminal -->
+              <div class="mt-4">
+                <div id="simTerminal" class="simulation-terminal">
+                  <p class="text-muted mb-0">Waiting to execute simulation...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Call-to-Action: Full Stack Development Portfolio -->
+      <div class="mt-5 pt-4">
+        <div class="glass-card border-primary border-2" style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%);">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+              <h3 class="h4 fw-bold mb-2"><i class="bi bi-mortarboard-fill text-primary me-2"></i>Comprehensive Full Stack Development Portfolio</h3>
+              <p class="text-secondary mb-0">
+                Explore an in-depth academic portfolio covering full stack architecture, technologies, developer roles, technology stacks, practical demonstrations, and reflections on modern web development.
+              </p>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+              <a href="fullstack-portfolio.html" class="btn btn-gradient btn-lg">
+                <i class="bi bi-book me-2"></i>View Full Portfolio
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. HTML SECTION & PLAYGROUND
+       ========================================== -->
+  <section id="html" class="section-padding bg-secondary-dim">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">HyperText Markup Language (<span class="gradient-text">HTML</span>)</h2>
+          <p class="text-secondary">HTML defines the foundational structure of the web. It uses tags to arrange page elements, semantic structures, and data formats.</p>
+          <div class="border-bottom border-primary border-3 mx-auto" style="width: 60px;"></div>
+        </div>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-7">
+          <!-- Editor Panel - HTML Code Snippets -->
+          <div class="playground-editor-wrapper h-100 d-flex flex-column">
+            <div class="playground-header">
+              <div class="playground-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="small text-muted font-monospace">playground_editor.html</span>
+            </div>
+            
+            <!-- Code category selector tabs -->
+            <div class="playground-tabs">
+              <button class="playground-tab-btn active" data-snippet="headings">&lt;h1&gt; Headings</button>
+              <button class="playground-tab-btn" data-snippet="forms">&lt;form&gt; Forms</button>
+              <button class="playground-tab-btn" data-snippet="tables">&lt;table&gt; Tables</button>
+              <button class="playground-tab-btn" data-snippet="semantic">&lt;article&gt; Semantic</button>
+            </div>
+            
+            <pre class="playground-code-area flex-grow-1"><code id="playgroundCode"></code></pre>
+            
+            <!-- Explanation footer -->
+            <div id="playgroundExplanation" class="playground-explanation">
+              <h5 class="h6 font-monospace text-primary mb-2">// Structural Breakdown</h5>
+              <div id="playgroundExplanationText" class="small text-secondary"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <!-- Preview Frame Panel -->
+          <div class="d-flex flex-column h-100">
+            <h5 class="h6 font-monospace mb-3 text-secondary text-uppercase tracking-wider"><i class="bi bi-eye-fill me-2"></i>Live Viewport Preview</h5>
+            <div id="playgroundPreview" class="playground-preview-pane flex-grow-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HTML Snippets Code References -->
+      <div class="row g-4 mt-4">
+        <div class="col-lg-6">
+          <div class="glass-card">
+            <h5 class="fw-bold mb-3"><i class="bi bi-code-slash text-danger me-2"></i>Semantic HTML Form Example</h5>
+            <pre><code class="language-html">&lt;form id="contactForm" method="POST"&gt;
+  &lt;label for="email"&gt;Email Address&lt;/label&gt;
+  &lt;input 
+    type="email" 
+    id="email" 
+    name="email"
+    required
+    placeholder="user@example.com"
+  &gt;
+  
+  &lt;label for="message"&gt;Message&lt;/label&gt;
+  &lt;textarea 
+    id="message" 
+    name="message"
+    minlength="10"
+    required
+  &gt;&lt;/textarea&gt;
+  
+  &lt;button type="submit"&gt;Send Message&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="glass-card">
+            <h5 class="fw-bold mb-3"><i class="bi bi-code-slash text-danger me-2"></i>Semantic HTML Table Example</h5>
+            <pre><code class="language-html">&lt;table&gt;
+  &lt;caption&gt;Developer Skills&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Technology&lt;/th&gt;
+      &lt;th scope="col"&gt;Level&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope="row"&gt;JavaScript&lt;/th&gt;
+      &lt;td&gt;Advanced&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. CSS SECTION & VISUALIZERS
+       ========================================== -->
+  <section id="css" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">Cascading Style Sheets (<span class="gradient-text">CSS</span>)</h2>
+          <p class="text-secondary">CSS governs the look and feel of HTML documents, defining color structures, typography alignments, flex/grid grids, and fluid animation steps.</p>
+          <div class="border-bottom border-primary border-3 mx-auto" style="width: 60px;"></div>
+        </div>
+      </div>
+
+      <!-- Flexbox & Grid Sandbox Row -->
+      <div class="row g-4 align-items-stretch mb-5">
+        
+        <!-- Flexbox Sandbox -->
+        <div class="col-lg-6">
+          <div class="glass-card h-100">
+            <h4 class="fw-bold mb-3"><i class="bi bi-arrows-expand me-2 text-primary"></i>Flexbox Sandbox</h4>
+            <p class="text-secondary small">Flexbox creates 1-dimensional layouts. Control child element alignments along axes in real time.</p>
+            
+            <div class="row g-2 mb-3 css-sandbox-controls">
+              <div class="col-4">
+                <label class="small text-muted font-monospace">flex-direction</label>
+                <select id="flexDirSelect" class="form-select form-select-sm mt-1">
+                  <option value="row">row</option>
+                  <option value="row-reverse">row-reverse</option>
+                  <option value="column">column</option>
+                  <option value="column-reverse">column-reverse</option>
+                </select>
+              </div>
+              <div class="col-4">
+                <label class="small text-muted font-monospace">justify-content</label>
+                <select id="flexJustifySelect" class="form-select form-select-sm mt-1">
+                  <option value="flex-start">flex-start</option>
+                  <option value="center">center</option>
+                  <option value="flex-end">flex-end</option>
+                  <option value="space-between">space-between</option>
+                  <option value="space-around">space-around</option>
+                </select>
+              </div>
+              <div class="col-4">
+                <label class="small text-muted font-monospace">align-items</label>
+                <select id="flexAlignSelect" class="form-select form-select-sm mt-1">
+                  <option value="stretch">stretch</option>
+                  <option value="center">center</option>
+                  <option value="flex-start">flex-start</option>
+                  <option value="flex-end">flex-end</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="flexVisualContainer" class="css-demo-container-flex align-items-stretch justify-content-start">
+              <div class="css-box">A</div>
+              <div class="css-box" style="height: 70px;">B</div>
+              <div class="css-box">C</div>
+            </div>
+
+            <!-- Flexbox Code Snippet -->
+            <div class="mt-3 pt-3 border-top border-secondary">
+              <h6 class="small font-monospace text-primary mb-2">// Flexbox CSS Code</h6>
+              <pre class="small mb-0"><code class="language-css">.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 10px;
+  min-height: 180px;
+}</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid Sandbox -->
+        <div class="col-lg-6">
+          <div class="glass-card h-100">
+            <h4 class="fw-bold mb-3"><i class="bi bi-grid-3x3-gap-fill me-2 text-primary"></i>Grid Sandbox</h4>
+            <p class="text-secondary small">Grid sets up 2-dimensional grid layouts. Select row columns and gaps dynamically.</p>
+            
+            <div class="row g-2 mb-3 css-sandbox-controls">
+              <div class="col-6">
+                <label class="small text-muted font-monospace">grid-template-columns</label>
+                <select id="gridColsSelect" class="form-select form-select-sm mt-1">
+                  <option value="3">repeat(3, 1fr)</option>
+                  <option value="2">repeat(2, 1fr)</option>
+                  <option value="4">repeat(4, 1fr)</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <label class="small text-muted font-monospace">gap</label>
+                <select id="gridGapSelect" class="form-select form-select-sm mt-1">
+                  <option value="10px">10px</option>
+                  <option value="20px">20px</option>
+                  <option value="30px">30px</option>
+                  <option value="5px">5px</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="gridVisualContainer" class="css-demo-container-grid" style="grid-template-columns: repeat(3, 1fr); gap: 10px;">
+              <div class="css-demo-card">Card 1</div>
+              <div class="css-demo-card">Card 2</div>
+              <div class="css-demo-card">Card 3</div>
+              <div class="css-demo-card">Card 4</div>
+              <div class="css-demo-card">Card 5</div>
+              <div class="css-demo-card">Card 6</div>
+            </div>
+
+            <!-- Grid Code Snippet -->
+            <div class="mt-3 pt-3 border-top border-secondary">
+              <h6 class="small font-monospace text-primary mb-2">// CSS Grid Code</h6>
+              <pre class="small mb-0"><code class="language-css">.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  min-height: 180px;
+}</code></pre>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Before and After Showcase -->
+      <div class="glass-card">
+        <h4 class="fw-bold mb-3 text-center">Before & After CSS Application</h4>
+        <p class="text-secondary text-center mb-4">Observe how the same HTML code block changes with raw style rules applied.</p>
+        
+        <div class="css-comparison-container">
+          <!-- Before CSS -->
+          <div>
+            <span class="badge bg-danger mb-2 font-monospace">Raw HTML (No CSS)</span>
+            <div class="before-card-preview h-100">
+              <h3>Kiran Khulal</h3>
+              <p>Graduating Junior Developer.</p>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <button>Submit Info</button>
+            </div>
+          </div>
+          
+          <!-- After CSS -->
+          <div>
+            <span class="badge bg-success mb-2 font-monospace">Styled with custom CSS</span>
+            <div class="after-card-preview h-100">
+              <h3 class="gradient-text h4 mb-2">Kiran Khulal</h3>
+              <p class="text-secondary small mb-3">Graduating Junior Developer.</p>
+              <div class="mb-3">
+                <span class="badge bg-dark border border-secondary text-light font-monospace me-1">HTML5</span>
+                <span class="badge bg-dark border border-secondary text-light font-monospace me-1">CSS3</span>
+                <span class="badge bg-dark border border-secondary text-light font-monospace">JavaScript</span>
+              </div>
+              <button class="btn btn-gradient btn-sm w-100">Submit Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. BOOTSTRAP FRAMEWORK SECTION
+       ========================================== -->
+  <section id="bootstrap" class="section-padding bg-secondary-dim">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">Bootstrap <span class="gradient-text">Framework</span></h2>
+          <p class="text-secondary">Bootstrap 5 is a robust utility component framework. It enables rapid responsive design prototyping via mobile-first grid configurations.</p>
+          <div class="border-bottom border-primary border-3 mx-auto" style="width: 60px;"></div>
+        </div>
+      </div>
+
+      <!-- Breakpoint visual debugger -->
+      <div class="glass-card mb-5">
+        <h4 class="fw-bold mb-2">1. Bootstrap 5 Mobile-First Responsive Grid</h4>
+        <p class="text-secondary small mb-4">Resize your browser window. Note how the column structure and background highlights adjust automatically according to active media breakpoints.</p>
+        
+        <div class="row g-3 mb-4">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="breakpoint-indicator-box bp-xs">
+              <span class="d-sm-none">XS (&lt;576px)</span>
+              <span class="d-none d-sm-inline d-md-none">SM (&ge;576px)</span>
+              <span class="d-none d-md-inline d-lg-none">MD (&ge;768px)</span>
+              <span class="d-none d-lg-inline d-xl-none">LG (&ge;992px)</span>
+              <span class="d-none d-xl-inline d-xxl-none">XL (&ge;1200px)</span>
+              <span class="d-none d-xxl-inline">XXL (&ge;1400px)</span>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="breakpoint-indicator-box bp-sm">Col 2</div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="breakpoint-indicator-box bp-md">Col 3</div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="breakpoint-indicator-box bp-lg">Col 4</div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="breakpoint-indicator-box bp-xl">Col 5</div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="breakpoint-indicator-box bg-dark border border-secondary text-light">Col 6</div>
+          </div>
+        </div>
+
+        <!-- Bootstrap Grid Code Snippet -->
+        <div class="pt-3 border-top border-secondary">
+          <h6 class="small font-monospace text-primary mb-2">// Bootstrap Responsive Grid HTML</h6>
+          <pre class="small mb-0"><code class="language-html">&lt;div class="container"&gt;
+  &lt;div class="row g-3"&gt;
+    &lt;div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"&gt;
+      Full width on mobile, 6 cols on tablet, 
+      4 on desktop, 3 on large, 2 on XL
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </div>
+
+      <!-- Showcase grid of Carousel and Modals -->
+      <div class="row g-4">
+        <!-- Carousel slider mockup -->
+        <div class="col-lg-7">
+          <div class="glass-card h-100">
+            <h4 class="fw-bold mb-3"><i class="bi bi-images me-2 text-primary"></i>2. Interactive Carousel Slider</h4>
+            <p class="text-secondary small mb-4">Built using native Bootstrap Carousel classes, ideal for sliders or image galleries.</p>
+            
+            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner carousel-inner-custom">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <div style="height: 300px; background: linear-gradient(135deg, #1e1b4b 0%, #311042 100%);" class="d-flex align-items-center justify-content-center text-center p-4">
+                    <div class="text-light">
+                      <i class="bi bi-window-sidebar display-3 mb-2 text-primary"></i>
+                      <h5 class="fw-bold">Interactive Frontends</h5>
+                      <p class="small text-secondary px-md-5">Responsive layouts with seamless responsive adaptions for mobile screens.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div style="height: 300px; background: linear-gradient(135deg, #0f172a 0%, #064e3b 100%);" class="d-flex align-items-center justify-content-center text-center p-4">
+                    <div class="text-light">
+                      <i class="bi bi-shield-check display-3 mb-2 text-success"></i>
+                      <h5 class="fw-bold">Robust Endpoint Routing</h5>
+                      <p class="small text-secondary px-md-5">REST routes matching and database transaction architectures.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div style="height: 300px; background: linear-gradient(135deg, #090d16 0%, #172554 100%);" class="d-flex align-items-center justify-content-center text-center p-4">
+                    <div class="text-light">
+                      <i class="bi bi-graph-up-arrow display-3 mb-2 text-info"></i>
+                      <h5 class="fw-bold">SEO & Speed Optimization</h5>
+                      <p class="small text-secondary px-md-5">Semantic DOM arrangements and lightweight asset footprints for speed indexes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- Carousel Code Snippet -->
+            <div class="mt-3 pt-3 border-top border-secondary">
+              <h6 class="small font-monospace text-primary mb-2">// Bootstrap Carousel HTML</h6>
+              <pre class="small mb-0"><code class="language-html">&lt;div class="carousel slide" 
+     data-bs-ride="carousel"&gt;
+  &lt;div class="carousel-indicators"&gt;
+    &lt;button data-bs-slide-to="0"
+     class="active"&gt;&lt;/button&gt;
+    &lt;button data-bs-slide-to="1"
+     &gt;&lt;/button&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="carousel-inner"&gt;
+    &lt;div class="carousel-item active"&gt;
+      &lt;img src="img1.jpg"&gt;
+    &lt;/div&gt;
+    &lt;div class="carousel-item"&gt;
+      &lt;img src="img2.jpg"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;button class="carousel-control-prev"
+    data-bs-slide="prev"&gt;
+  &lt;/button&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modals and trigger elements -->
+        <div class="col-lg-5">
+          <div class="glass-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h4 class="fw-bold mb-3"><i class="bi bi-chat-square-quote-fill me-2 text-primary"></i>3. Bootstrap 5 Modals</h4>
+              <p class="text-secondary small mb-4">
+                Modals provide structured overlay panels that focus user operations without changing pages. Trigger the dialog overlay using the buttons below.
+              </p>
+            </div>
+            <div class="mb-4">
+              <div class="p-3 bg-dark border border-secondary rounded text-center">
+                <p class="small text-secondary mb-3 font-monospace">Modal Class Trigger Hub</p>
+                <button type="button" class="btn btn-gradient btn-sm w-100 mb-2" data-bs-toggle="modal" data-bs-target="#credentialsModal">
+                  Launch Academic Credentials
+                </button>
+                <button type="button" class="btn btn-outline-custom btn-sm w-100" data-bs-toggle="modal" data-bs-target="#techStackModal">
+                  Check Environment Specs
+                </button>
+              </div>
+            </div>
+
+            <!-- Modal Code Snippet -->
+            <div class="pt-3 border-top border-secondary">
+              <h6 class="small font-monospace text-primary mb-2">// Bootstrap Modal HTML</h6>
+              <pre class="small mb-0"><code class="language-html">&lt;button data-bs-toggle="modal"
+    data-bs-target="#myModal"&gt;
+  Launch Modal
+&lt;/button&gt;
+
+&lt;div class="modal fade" id="myModal"&gt;
+  &lt;div class="modal-dialog"&gt;
+    &lt;div class="modal-content"&gt;
+      &lt;div class="modal-header"&gt;
+        &lt;h5 class="modal-title"&gt;
+          Title
+        &lt;/h5&gt;
+        &lt;button data-bs-dismiss="modal"
+          &gt;&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class="modal-body"&gt;
+        Content here
+      &lt;/div&gt;
+      &lt;div class="modal-footer"&gt;
+        &lt;button data-bs-dismiss="modal"
+          &gt;Close&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals markup -->
+  <!-- Modal 1: Credentials -->
+  <div class="modal fade" id="credentialsModal" tabindex="-1" aria-labelledby="credentialsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title fw-bold text-primary" id="credentialsModalLabel"><i class="bi bi-mortarboard-fill me-2"></i>Academic Profile</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 class="fw-bold text-light">Bachelor of Science in Computer Science (Ongoing)</h6>
+          <p class="small text-secondary mb-3">State University • Expected Graduation: Fall 2026</p>
+          
+          <h6 class="fw-bold text-light mt-4">Key Completed Coursework:</h6>
+          <ul class="small text-secondary">
+            <li>Algorithms & Complex Data Structures</li>
+            <li>Relational DBMS & SQL Architecture</li>
+            <li>Software Engineering & Agile Methodologies</li>
+            <li>Advanced Client Scripting & Web Apps</li>
+          </ul>
+        </div>
+        <div class="modal-footer border-secondary">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          <a href="#contact" class="btn btn-gradient btn-sm" data-bs-dismiss="modal">Request Transcripts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Tech Specs -->
+  <div class="modal fade" id="techStackModal" tabindex="-1" aria-labelledby="techStackModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light border-secondary">
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title fw-bold text-info" id="techStackModalLabel"><i class="bi bi-terminal-fill me-2"></i>Environment Details</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-dark table-sm table-borderless font-monospace small">
+            <tbody>
+              <tr>
+                <td class="text-secondary">Node Version:</td>
+                <td class="text-success">v20.11.0 LTS</td>
+              </tr>
+              <tr>
+                <td class="text-secondary">Local DBMS:</td>
+                <td class="text-success">PostgreSQL v16.2</td>
+              </tr>
+              <tr>
+                <td class="text-secondary">VCS Control:</td>
+                <td class="text-success">Git v2.43.0</td>
+              </tr>
+              <tr>
+                <td class="text-secondary">OS Platform:</td>
+                <td class="text-success">Windows Desktop System</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer border-secondary">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Dismiss</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       8. JAVASCRIPT HUB SECTION
+       ========================================== -->
+  <section id="javascript" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">JavaScript (<span class="gradient-text">JS</span>) Interactive Hub</h2>
+          <p class="text-secondary">JavaScript brings dynamic operations to web pages. Interact with the modular tools below to evaluate arithmetic, manage tasks, control DOM nodes, and check validator criteria.</p>
+          <div class="border-bottom border-primary border-3 mx-auto" style="width: 60px;"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="glass-card">
+            
+            <!-- Navigation pill selector for JavaScript programs -->
+            <ul class="nav nav-pills justify-content-center js-nav-pills mb-4" id="jsTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="calc-tab" data-bs-toggle="pill" data-bs-target="#pills-calc" type="button" role="tab" aria-controls="pills-calc" aria-selected="true">
+                  <i class="bi bi-calculator-fill me-1"></i> Calculator
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="todo-tab" data-bs-toggle="pill" data-bs-target="#pills-todo" type="button" role="tab" aria-controls="pills-todo" aria-selected="false">
+                  <i class="bi bi-check2-square me-1"></i> To-Do List
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="dom-tab" data-bs-toggle="pill" data-bs-target="#pills-dom" type="button" role="tab" aria-controls="pills-dom" aria-selected="false">
+                  <i class="bi bi-bounding-box me-1"></i> DOM Playground
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="val-tab" data-bs-toggle="pill" data-bs-target="#pills-val" type="button" role="tab" aria-controls="pills-val" aria-selected="false">
+                  <i class="bi bi-shield-lock-fill me-1"></i> Form Validator
+                </button>
+              </li>
+            </ul>
+
+            <!-- Tabs Content Panels -->
+            <div class="tab-content" id="jsTabsContent">
+              
+              <!-- Tab 1: Calculator -->
+              <div class="tab-pane fade show active text-center" id="pills-calc" role="tabpanel" aria-labelledby="calc-tab">
+                <h4 class="h5 fw-bold mb-3">Modular Calculator Widget</h4>
+                <p class="text-secondary small mb-4">Input mathematical equations below. Powered by dynamic JS math parsing.</p>
+                
+                <div class="row g-3 align-items-start">
+                  <div class="col-md-6">
+                    <div class="p-3 bg-dark border border-secondary rounded d-inline-block shadow-sm">
+                      <div class="calc-grid">
+                        <div id="calcDisplay" class="calc-display mb-3">0</div>
+                        
+                        <button class="calc-btn op-btn" data-val="C">C</button>
+                        <button class="calc-btn op-btn" data-val="/">/</button>
+                        <button class="calc-btn op-btn" data-val="*">*</button>
+                        <button class="calc-btn op-btn" data-val="-">-</button>
+                        
+                        <button class="calc-btn" data-val="7">7</button>
+                        <button class="calc-btn" data-val="8">8</button>
+                        <button class="calc-btn" data-val="9">9</button>
+                        <button class="calc-btn op-btn" data-val="+">+</button>
+                        
+                        <button class="calc-btn" data-val="4">4</button>
+                        <button class="calc-btn" data-val="5">5</button>
+                        <button class="calc-btn" data-val="6">6</button>
+                        <button class="calc-btn op-btn" data-val=".">.</button>
+                        
+                        <button class="calc-btn" data-val="1">1</button>
+                        <button class="calc-btn" data-val="2">2</button>
+                        <button class="calc-btn" data-val="3">3</button>
+                        
+                        <button class="calc-btn eq-btn" data-val="=">=</button>
+                        <button class="calc-btn" data-val="0" style="grid-column: span 2;">0</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="bg-dark border border-secondary rounded p-3">
+                      <h6 class="small font-monospace text-primary mb-2">// Calculator JavaScript</h6>
+                      <pre class="small mb-0"><code class="language-javascript">// Handle calculator buttons
+document.querySelectorAll('.calc-btn')
+  .forEach(btn =&gt; {
+    btn.addEventListener('click', () =&gt; {
+      const value = btn.dataset.val;
+      
+      if (value === 'C') {
+        calcDisplay.textContent = '0';
+      } else if (value === '=') {
+        try {
+          const result = eval(
+            calcDisplay.textContent
+          );
+          calcDisplay.textContent = result;
+        } catch (e) {
+          calcDisplay.textContent = 'Error';
+        }
+      } else {
+        if (calcDisplay.textContent === '0') {
+          calcDisplay.textContent = value;
+        } else {
+          calcDisplay.textContent += value;
+        }
+      }
+    });
+  });</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tab 2: To-Do Tracker -->
+              <div class="tab-pane fade" id="pills-todo" role="tabpanel" aria-labelledby="todo-tab">
+                <div class="row g-3 align-items-start">
+                  <div class="col-md-6">
+                    <div class="todo-container">
+                      <h4 class="h5 fw-bold mb-3 text-center">To-Do Task Tracker</h4>
+                      <p class="text-secondary small text-center mb-4">Add and clear objectives. Demonstrates state manipulation.</p>
+                      
+                      <div class="input-group mb-3">
+                        <input type="text" id="todoInput" class="form-control" placeholder="Enter objective description..." aria-label="Todo Item">
+                        <button id="addTodoBtn" class="btn btn-gradient" type="button"><i class="bi bi-plus-lg"></i> Add</button>
+                      </div>
+                      
+                      <ul id="todoList" class="list-unstyled"></ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="bg-dark border border-secondary rounded p-3">
+                      <h6 class="small font-monospace text-primary mb-2">// To-Do List JavaScript</h6>
+                      <pre class="small mb-0"><code class="language-javascript">// Add new todo item
+addTodoBtn.addEventListener(
+  'click', 
+  () =&gt; {
+    const text = todoInput.value;
+    if (text.trim() === '') return;
+    
+    const li = document.createElement('li');
+    li.className = 'todo-item';
+    li.innerHTML = `
+      &lt;span class="todo-text"&gt;
+        ${text}
+      &lt;/span&gt;
+      &lt;button class="todo-delete"&gt;
+        Delete
+      &lt;/button&gt;
+    `;
+    
+    todoList.appendChild(li);
+    todoInput.value = '';
+    
+    // Delete handler
+    li.querySelector('.todo-delete')
+      .addEventListener('click', 
+        () =&gt; li.remove()
+      );
+  }
+);</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tab 3: DOM Playground -->
+              <div class="tab-pane fade" id="pills-dom" role="tabpanel" aria-labelledby="dom-tab">
+                <div class="row g-3 align-items-start">
+                  <div class="col-md-6">
+                    <h4 class="h5 fw-bold mb-3 text-center">Dynamic DOM Element Builder</h4>
+                    <p class="text-secondary small text-center mb-4">Spawn floating HTML tags on the screen using runtime rendering commands.</p>
+                    
+                    <div class="d-flex justify-content-center gap-2 mb-3">
+                      <button id="spawnElementBtn" class="btn btn-gradient btn-sm"><i class="bi bi-plus-circle-fill me-1"></i> Spawn Tag Element</button>
+                      <button id="clearElementsBtn" class="btn btn-outline-custom btn-sm"><i class="bi bi-trash3-fill me-1"></i> Clear Canvas</button>
+                    </div>
+
+                    <div id="domSandbox" class="dom-sandbox-container"></div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="bg-dark border border-secondary rounded p-3 h-100">
+                      <h6 class="small font-monospace text-primary mb-2">// createElement & appendChild</h6>
+                      <pre class="small mb-0"><code class="language-javascript">// Spawn random floating elements
+spawnElementBtn.addEventListener('click', () =&gt; {
+  const tags = ['div', 'span', 'p', 'button'];
+  const randomTag = tags[
+    Math.floor(Math.random() * tags.length)
+  ];
+  
+  const element = 
+    document.createElement(randomTag);
+  element.textContent = 
+    randomTag.toUpperCase();
+  element.className = 'dom-spawned';
+  element.style.cssText = `
+    position: absolute;
+    left: ${Math.random() * 80}%;
+    top: ${Math.random() * 80}%;
+    padding: 10px 15px;
+    background: linear-gradient(
+      135deg, 
+      #667eea, 
+      #764ba2
+    );
+    border-radius: 6px;
+    cursor: pointer;
+    animation: floatParticle 4s ease-in-out;
+  `;
+  
+  // Remove on click
+  element.addEventListener('click', 
+    () =&gt; element.remove()
+  );
+  
+  domSandbox.appendChild(element);
+});</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tab 4: Form Validator -->
+              <div class="tab-pane fade" id="pills-val" role="tabpanel" aria-labelledby="val-tab">
+                <div class="row g-3 align-items-start">
+                  <div class="col-md-6">
+                    <div class="row justify-content-center">
+                      <div class="col-md-12">
+                        <h4 class="h5 fw-bold mb-3 text-center">Real-Time Validation Panel</h4>
+                        <p class="text-secondary small text-center mb-4">Type details below. The registration button remains disabled until validation schemas evaluate successfully.</p>
+                        
+                        <form id="regValidationForm" class="p-3 border rounded">
+                          <div class="mb-3">
+                            <label for="valUser" class="form-label small text-secondary">Username (Min 3 characters)</label>
+                            <input type="text" id="valUser" class="form-control form-control-sm" required>
+                            <div class="invalid-feedback small">Username must be at least 3 characters.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="valEmail" class="form-label small text-secondary">Email Address</label>
+                            <input type="email" id="valEmail" class="form-control form-control-sm" required>
+                            <div class="invalid-feedback small">Please supply a valid email address.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="valPass" class="form-label small text-secondary">Password (Min 6 characters, uppercase + number)</label>
+                            <input type="password" id="valPass" class="form-control form-control-sm" required>
+                            
+                            <!-- Strength Meter Bar -->
+                            <div class="pw-strength-bar">
+                              <div id="strengthFill" class="pw-strength-fill"></div>
+                            </div>
+                            <div id="strengthText" class="form-text small mt-1 text-muted"></div>
+                          </div>
+                          
+                          <button id="regSubmitBtn" type="submit" class="btn btn-gradient btn-sm w-100 mt-2" disabled>Register Account</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="bg-dark border border-secondary rounded p-3 h-100">
+                      <h6 class="small font-monospace text-primary mb-2">// Form Validation JavaScript</h6>
+                      <pre class="small mb-0"><code class="language-javascript">// Real-time form validation
+function validateForm() {
+  const user = valUser.value;
+  const email = valEmail.value;
+  const pass = valPass.value;
+  
+  const isValid = 
+    user.length &gt;= 3 &&
+    email.includes('@') &&
+    pass.length &gt;= 6 &&
+    /[A-Z]/.test(pass) &&
+    /[0-9]/.test(pass);
+  
+  regSubmitBtn.disabled = !isValid;
+  
+  // Update password strength
+  let strength = 0;
+  if (pass.length &gt; 6) strength++;
+  if (/[A-Z]/.test(pass)) strength++;
+  if (/[0-9]/.test(pass)) strength++;
+  
+  strengthFill.className = 
+    `pw-strength-fill 
+    strength-${
+      strength === 1 ? 'weak' : 
+      strength === 2 ? 'medium' : 
+      'strong'
+    }`;
+}
+
+// Listen to input changes
+valUser.addEventListener('input', 
+  validateForm
+);
+valEmail.addEventListener('input', 
+  validateForm
+);
+valPass.addEventListener('input', 
+  validateForm
+);</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. CODE SNIPPETS REFERENCE SECTION
+       ========================================== -->
+  <section class="section-padding bg-secondary-dim">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">Code <span class="gradient-text">Snippets Reference</span></h2>
+          <p class="text-secondary">Complete, annotated code examples covering all important functions and concepts required for this assignment.</p>
+          <div class="border-bottom border-primary border-3 mx-auto" style="width: 60px;"></div>
+        </div>
+      </div>
+
+      <!-- HTML Code Snippets -->
+      <div class="glass-card mb-4">
+        <h4 class="fw-bold mb-3"><i class="bi bi-filetype-html text-danger me-2"></i>HTML5 - Semantic Structure & Forms</h4>
+        
+        <div class="accordion" id="htmlAccordion">
+          <!-- Semantic Page Structure -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#html1">
+                <span class="font-monospace">Semantic HTML5 Page Structure</span>
+              </button>
+            </h2>
+            <div id="html1" class="accordion-collapse collapse" data-bs-parent="#htmlAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;meta name="description" content="Professional portfolio showcasing full stack skills"&gt;
+  &lt;title&gt;Full Stack Developer Portfolio&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Semantic header with navigation --&gt;
+  &lt;header role="banner"&gt;
+    &lt;nav aria-label="Main Navigation"&gt;
+      &lt;a href="#"&gt;Home&lt;/a&gt;
+      &lt;a href="#about"&gt;About&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+
+  &lt;!-- Main content area --&gt;
+  &lt;main role="main"&gt;
+    &lt;article&gt;
+      &lt;h1&gt;Welcome to My Portfolio&lt;/h1&gt;
+      &lt;section&gt;
+        &lt;h2&gt;About Me&lt;/h2&gt;
+        &lt;p&gt;Junior Full Stack Developer...&lt;/p&gt;
+      &lt;/section&gt;
+    &lt;/article&gt;
+    
+    &lt;aside role="complementary"&gt;
+      &lt;h3&gt;Quick Links&lt;/h3&gt;
+      &lt;ul&gt;&lt;li&gt;&lt;a href="#"&gt;GitHub&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/main&gt;
+
+  &lt;!-- Semantic footer --&gt;
+  &lt;footer role="contentinfo"&gt;
+    &lt;p&gt;&amp;copy; 2026 Kiran Khulal. All rights reserved.&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form with Validation -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#html2">
+                <span class="font-monospace">&lt;form&gt; with HTML5 Validation</span>
+              </button>
+            </h2>
+            <div id="html2" class="accordion-collapse collapse" data-bs-parent="#htmlAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;form id="registrationForm" method="POST" action="/api/register"&gt;
+  &lt;!-- Text input with minimum length validation --&gt;
+  &lt;label for="username"&gt;Username&lt;/label&gt;
+  &lt;input 
+    type="text" 
+    id="username" 
+    name="username" 
+    minlength="3" 
+    maxlength="20" 
+    required 
+    aria-describedby="usernameHelp"
+  &gt;
+  &lt;small id="usernameHelp"&gt;3-20 characters allowed&lt;/small&gt;
+
+  &lt;!-- Email input with built-in validation --&gt;
+  &lt;label for="email"&gt;Email Address&lt;/label&gt;
+  &lt;input 
+    type="email" 
+    id="email" 
+    name="email" 
+    required
+    placeholder="user@example.com"
+  &gt;
+
+  &lt;!-- Password with pattern validation --&gt;
+  &lt;label for="password"&gt;Password&lt;/label&gt;
+  &lt;input 
+    type="password" 
+    id="password" 
+    name="password" 
+    minlength="8"
+    pattern="(?=.*[A-Z])(?=.*[0-9])"
+    title="Must contain uppercase letter and number"
+    required
+  &gt;
+
+  &lt;!-- Select dropdown --&gt;
+  &lt;label for="role"&gt;Select Your Role&lt;/label&gt;
+  &lt;select id="role" name="role" required&gt;
+    &lt;option value=""&gt;-- Please Select --&lt;/option&gt;
+    &lt;option value="frontend"&gt;Frontend Developer&lt;/option&gt;
+    &lt;option value="backend"&gt;Backend Developer&lt;/option&gt;
+    &lt;option value="fullstack"&gt;Full Stack Developer&lt;/option&gt;
+  &lt;/select&gt;
+
+  &lt;!-- Checkbox for terms agreement --&gt;
+  &lt;input type="checkbox" id="terms" name="terms" required&gt;
+  &lt;label for="terms"&gt;I agree to the terms and conditions&lt;/label&gt;
+
+  &lt;!-- Submit button --&gt;
+  &lt;button type="submit"&gt;Create Account&lt;/button&gt;
+  &lt;button type="reset"&gt;Clear Form&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Semantic Data Table -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#html3">
+                <span class="font-monospace">&lt;table&gt; - Semantic Data Presentation</span>
+              </button>
+            </h2>
+            <div id="html3" class="accordion-collapse collapse" data-bs-parent="#htmlAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;!-- Accessible data table with semantic markup --&gt;
+&lt;table role="table"&gt;
+  &lt;caption&gt;Technology Skills Assessment Matrix&lt;/caption&gt;
+  
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope="col"&gt;Technology&lt;/th&gt;
+      &lt;th scope="col"&gt;Proficiency Level&lt;/th&gt;
+      &lt;th scope="col"&gt;Years of Experience&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope="row"&gt;JavaScript&lt;/th&gt;
+      &lt;td&gt;Advanced&lt;/td&gt;
+      &lt;td&gt;3 years&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope="row"&gt;React&lt;/th&gt;
+      &lt;td&gt;Intermediate&lt;/td&gt;
+      &lt;td&gt;2 years&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope="row"&gt;PostgreSQL&lt;/th&gt;
+      &lt;td&gt;Advanced&lt;/td&gt;
+      &lt;td&gt;2.5 years&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td colspan="3"&gt;Updated: June 2026&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Images with Alt Text -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#html4">
+                <span class="font-monospace">&lt;img&gt; - Accessibility Best Practices</span>
+              </button>
+            </h2>
+            <div id="html4" class="accordion-collapse collapse" data-bs-parent="#htmlAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;!-- Proper image markup with alt text --&gt;
+&lt;figure&gt;
+  &lt;img 
+    src="developer-portfolio.jpg" 
+    alt="Kiran Khulal, Full Stack Developer, standing in front of code editor"
+    title="Portfolio thumbnail"
+    loading="lazy"
+    width="400"
+    height="300"
+  &gt;
+  &lt;figcaption&gt;Professional developer photo - 2026&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Decorative image (empty alt is correct here) --&gt;
+&lt;img src="decorative-border.png" alt="" aria-hidden="true"&gt;
+
+&lt;!-- Image gallery with semantic structure --&gt;
+&lt;section class="image-gallery"&gt;
+  &lt;h2&gt;Project Showcase&lt;/h2&gt;
+  &lt;gallery&gt;
+    &lt;img 
+      src="project1.jpg" 
+      alt="E-commerce Dashboard: Shows product list, filters, and shopping cart"
+    &gt;
+    &lt;img 
+      src="project2.jpg" 
+      alt="Weather App: Displays current temperature and forecast for 7 days"
+    &gt;
+  &lt;/gallery&gt;
+&lt;/section&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS Code Snippets -->
+      <div class="glass-card mb-4">
+        <h4 class="fw-bold mb-3"><i class="bi bi-filetype-css text-info me-2"></i>CSS3 - Flexbox, Grid & Responsive Design</h4>
+        
+        <div class="accordion" id="cssAccordion">
+          <!-- Flexbox Layout -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#css1">
+                <span class="font-monospace">Flexbox - Flexible Box Layout</span>
+              </button>
+            </h2>
+            <div id="css1" class="accordion-collapse collapse" data-bs-parent="#cssAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-css">/* Flexbox Container */
+.navbar {
+  display: flex;                    /* Enable flexbox */
+  justify-content: space-between;   /* Space items along main axis */
+  align-items: center;              /* Align items vertically centered */
+  flex-wrap: wrap;                  /* Wrap items on small screens */
+  gap: 1rem;                        /* Space between flex items */
+  padding: 1rem;
+}
+
+/* Flex Items */
+.navbar-brand {
+  flex: 0 1 auto;                   /* Don't grow, can shrink */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  margin-left: auto;                /* Push to right side */
+}
+
+.navbar-links a {
+  flex: 1 1 auto;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/* Responsive Flexbox */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;          /* Stack vertically on mobile */
+    align-items: flex-start;
+  }
+  
+  .navbar-links {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+}</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSS Grid Layout -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#css2">
+                <span class="font-monospace">CSS Grid - Two-Dimensional Layouts</span>
+              </button>
+            </h2>
+            <div id="css2" class="accordion-collapse collapse" data-bs-parent="#cssAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-css">/* Grid Container Setup */
+.page-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr 250px;  /* 3 columns: sidebar, main, aside */
+  grid-template-rows: auto 1fr auto;       /* 3 rows: header, content, footer */
+  gap: 1.5rem;
+  min-height: 100vh;
+}
+
+/* Named grid areas for clarity */
+.page-layout {
+  grid-template-areas:
+    "header header header"
+    "sidebar main aside"
+    "footer footer footer";
+}
+
+header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+main { grid-area: main; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
+
+/* Responsive Grid */
+@media (max-width: 1024px) {
+  .page-layout {
+    grid-template-columns: 1fr;      /* Single column on tablet */
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "aside"
+      "footer";
+  }
+}
+
+/* Grid for product cards */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.product-card {
+  grid-column: span 1;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Responsive Media Queries -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#css3">
+                <span class="font-monospace">Media Queries - Responsive Design</span>
+              </button>
+            </h2>
+            <div id="css3" class="accordion-collapse collapse" data-bs-parent="#cssAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-css">/* Mobile-First Approach */
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Base styles for mobile */
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.hero {
+  display: block;
+  text-align: center;
+}
+
+/* Tablet: 768px and up */
+@media (min-width: 768px) {
+  body { font-size: 16px; }
+  
+  .container { 
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+  }
+}
+
+/* Desktop: 1024px and up */
+@media (min-width: 1024px) {
+  .container { max-width: 960px; }
+  
+  .sidebar {
+    display: block;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  main { margin-left: 250px; }
+}
+
+/* Large Desktop: 1440px and up */
+@media (min-width: 1440px) {
+  .container { max-width: 1200px; }
+  body { font-size: 18px; }
+}
+
+/* Print Styles */
+@media print {
+  body { background: white; color: black; }
+  .no-print { display: none; }
+  a { text-decoration: underline; }
+}</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSS Animations -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#css4">
+                <span class="font-monospace">Animations & Transitions</span>
+              </button>
+            </h2>
+            <div id="css4" class="accordion-collapse collapse" data-bs-parent="#cssAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-css">/* Smooth transitions */
+.button {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;  /* 0.3s duration, easing function */
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);        /* Move up 2px */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Keyframe animation - fade in on load */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-section {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Slide-in animation */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sidebar {
+  animation: slideInLeft 0.5s ease-out;
+}</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Box Model & Positioning -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#css5">
+                <span class="font-monospace">Box Model & Positioning</span>
+              </button>
+            </h2>
+            <div id="css5" class="accordion-collapse collapse" data-bs-parent="#cssAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-css">/* Box Model */
+.card {
+  content: "";               /* Actual content area */
+  padding: 1.5rem;           /* Space inside border */
+  border: 2px solid #ccc;    /* Border thickness & color */
+  margin: 1rem;              /* Space outside border */
+  box-sizing: border-box;    /* Include padding/border in width */
+}
+
+/* Positioning Types */
+
+/* Static (default) */
+.static-elem {
+  position: static;          /* Normal document flow */
+}
+
+/* Relative */
+.relative-elem {
+  position: relative;        /* Relative to normal position */
+  top: 20px;                 /* Move 20px down from normal position */
+  left: 10px;                /* Move 10px right */
+}
+
+/* Absolute */
+.absolute-elem {
+  position: absolute;        /* Relative to nearest positioned ancestor */
+  top: 50%;                  /* 50% from top of parent */
+  left: 50%;
+  transform: translate(-50%, -50%);  /* Center on point */
+}
+
+/* Fixed */
+.fixed-navbar {
+  position: fixed;           /* Fixed relative to viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: white;
+  z-index: 100;              /* Stack above other elements */
+}
+
+/* Sticky */
+.sticky-header {
+  position: sticky;          /* Sticky within scrolling container */
+  top: 0;                    /* Stick to top when scrolling */
+  background: white;
+}</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript Code Snippets -->
+      <div class="glass-card mb-4">
+        <h4 class="fw-bold mb-3"><i class="bi bi-filetype-js text-warning me-2"></i>JavaScript - DOM, Events & Fetch API</h4>
+        
+        <div class="accordion" id="jsAccordion">
+          <!-- DOM Selection & Manipulation -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#js1">
+                <span class="font-monospace">DOM Selection & Manipulation</span>
+              </button>
+            </h2>
+            <div id="js1" class="accordion-collapse collapse" data-bs-parent="#jsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-javascript">/* ===== DOM Selection Methods ===== */
+
+// Select single element by ID
+const header = document.getElementById('header');
+
+// Select single element using CSS selector
+const mainContent = document.querySelector('.main-content');
+const submitBtn = document.querySelector('button[type="submit"]');
+
+// Select multiple elements
+const allParagraphs = document.querySelectorAll('p');
+const navLinks = document.getElementsByClassName('nav-link');
+
+/* ===== DOM Manipulation ===== */
+
+// Change text content
+const title = document.querySelector('h1');
+title.textContent = 'Welcome to My Portfolio';
+
+// Change HTML content
+const container = document.querySelector('.container');
+container.innerHTML = '&lt;p&gt;New HTML content&lt;/p&gt;';
+
+// Modify attributes
+const image = document.querySelector('img');
+image.setAttribute('alt', 'Developer profile picture');
+image.src = 'new-image.jpg';
+image.style.width = '100%';
+
+// Add/Remove CSS classes
+const button = document.querySelector('.btn');
+button.classList.add('active');           // Add class
+button.classList.remove('disabled');      // Remove class
+button.classList.toggle('highlight');    // Toggle class
+
+// Create and append new elements
+const newDiv = document.createElement('div');
+newDiv.className = 'card';
+newDiv.textContent = 'New Card Element';
+document.body.appendChild(newDiv);
+
+// Insert element before another element
+const referenceNode = document.querySelector('.first-item');
+const newItem = document.createElement('li');
+newItem.textContent = 'New Item';
+referenceNode.parentNode.insertBefore(newItem, referenceNode);
+
+// Remove element
+const elementToRemove = document.querySelector('.old-card');
+elementToRemove.remove();  // Modern way
+// or
+elementToRemove.parentNode.removeChild(elementToRemove);  // Older way</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Listeners -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#js2">
+                <span class="font-monospace">Event Listeners & Handlers</span>
+              </button>
+            </h2>
+            <div id="js2" class="accordion-collapse collapse" data-bs-parent="#jsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-javascript">/* ===== Basic Event Listener ===== */
+const submitBtn = document.querySelector('#submit-btn');
+
+submitBtn.addEventListener('click', (event) =&gt; {
+  event.preventDefault();              // Stop default behavior
+  console.log('Button clicked!');
+});
+
+/* ===== Common Events ===== */
+
+// Form submission
+const form = document.querySelector('#contact-form');
+form.addEventListener('submit', (e) =&gt; {
+  e.preventDefault();
+  console.log('Form submitted');
+  // Process form data
+});
+
+// Input change
+const emailInput = document.querySelector('#email');
+emailInput.addEventListener('change', (e) =&gt; {
+  console.log('Email changed to:', e.target.value);
+});
+
+// Keyboard events
+document.addEventListener('keydown', (e) =&gt; {
+  if (e.key === 'Enter') {
+    console.log('Enter key pressed');
+  }
+});
+
+// Mouse events
+const card = document.querySelector('.card');
+card.addEventListener('mouseenter', () =&gt; {
+  card.style.boxShadow = '0 10px 20px rgba(0,0,0,0.3)';
+});
+
+card.addEventListener('mouseleave', () =&gt; {
+  card.style.boxShadow = 'none';
+});
+
+/* ===== Event Delegation (Handle multiple elements) ===== */
+const todoList = document.querySelector('#todo-list');
+
+todoList.addEventListener('click', (e) =&gt; {
+  if (e.target.classList.contains('delete-btn')) {
+    const todoItem = e.target.closest('li');
+    todoItem.remove();
+  }
+});
+
+/* ===== Removing Event Listeners ===== */
+const handler = (e) =&gt; console.log('Clicked');
+submitBtn.addEventListener('click', handler);
+
+// Later, remove the listener
+submitBtn.removeEventListener('click', handler);</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Array Methods -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#js3">
+                <span class="font-monospace">Array Methods (map, filter, reduce)</span>
+              </button>
+            </h2>
+            <div id="js3" class="accordion-collapse collapse" data-bs-parent="#jsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-javascript">/* ===== Array Methods ===== */
+
+const skills = [
+  { name: 'JavaScript', level: 90 },
+  { name: 'React', level: 75 },
+  { name: 'Node.js', level: 80 },
+  { name: 'SQL', level: 85 }
+];
+
+/* MAP - Transform each element */
+const skillNames = skills.map(skill =&gt; skill.name);
+// Result: ['JavaScript', 'React', 'Node.js', 'SQL']
+
+const skillDisplay = skills.map(skill =&gt; 
+  `${skill.name}: ${skill.level}%`
+);
+// Result: ['JavaScript: 90%', 'React: 75%', ...]
+
+/* FILTER - Select elements that match condition */
+const advancedSkills = skills.filter(skill =&gt; skill.level &gt;= 80);
+// Result: [{name: 'JavaScript', level: 90}, {name: 'Node.js', level: 80}, ...]
+
+const highProficiency = skills
+  .filter(skill =&gt; skill.level &gt; 75)
+  .map(skill =&gt; skill.name);
+// Result: ['JavaScript', 'Node.js', 'SQL']
+
+/* REDUCE - Accumulate values into single result */
+const totalSkillLevel = skills.reduce((sum, skill) =&gt; {
+  return sum + skill.level;
+}, 0);
+// Result: 330
+
+const averageLevel = totalSkillLevel / skills.length;  // 82.5
+
+/* Complex REDUCE example */
+const skillsByLevel = skills.reduce((acc, skill) =&gt; {
+  const level = skill.level &gt;= 80 ? 'Advanced' : 'Intermediate';
+  if (!acc[level]) acc[level] = [];
+  acc[level].push(skill.name);
+  return acc;
+}, {});
+// Result: {
+//   Advanced: ['JavaScript', 'Node.js', 'SQL'],
+//   Intermediate: ['React']
+// }
+
+/* OTHER USEFUL ARRAY METHODS */
+
+// forEach - Iterate without creating new array
+skills.forEach((skill, index) =&gt; {
+  console.log(`${index + 1}. ${skill.name}`);
+});
+
+// find - Get first element matching condition
+const reactSkill = skills.find(s =&gt; s.name === 'React');
+
+// includes - Check if array contains value
+const hasJavaScript = skills.some(s =&gt; s.name === 'JavaScript');  // true
+
+// sort - Order elements
+const sorted = skills.sort((a, b) =&gt; b.level - a.level);
+
+// join - Combine array into string
+const skillsList = skillNames.join(', ');
+// Result: 'JavaScript, React, Node.js, SQL'</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fetch API -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#js4">
+                <span class="font-monospace">Fetch API - HTTP Requests</span>
+              </button>
+            </h2>
+            <div id="js4" class="accordion-collapse collapse" data-bs-parent="#jsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-javascript">/* ===== Basic GET Request ===== */
+fetch('https://api.example.com/users')
+  .then(response =&gt; {
+    if (!response.ok) throw new Error('Network failed');
+    return response.json();  // Parse JSON
+  })
+  .then(data =&gt; {
+    console.log('Users:', data);
+    displayUsers(data);
+  })
+  .catch(error =&gt; {
+    console.error('Error:', error);
+    showErrorMessage('Failed to load users');
+  });
+
+/* ===== GET with Query Parameters ===== */
+const userId = 123;
+fetch(`https://api.example.com/users/${userId}`)
+  .then(res =&gt; res.json())
+  .then(data =&gt; console.log(data));
+
+/* ===== POST Request - Send Data ===== */
+const newUser = {
+  name: 'Kiran Khulal',
+  email: 'kiran@example.com',
+  role: 'Developer'
+};
+
+fetch('https://api.example.com/users', {
+  method: 'POST',              // HTTP method
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(newUser)  // Convert object to JSON
+})
+  .then(res =&gt; res.json())
+  .then(data =&gt; {
+    console.log('User created:', data);
+  });
+
+/* ===== Async/Await (Modern Syntax) ===== */
+async function getUsers() {
+  try {
+    const response = await fetch('https://api.example.com/users');
+    if (!response.ok) throw new Error('Failed to fetch');
+    
+    const users = await response.json();
+    return users;
+  } catch (error) {
+    console.error('Error:', error);
+    return [];
+  }
+}
+
+// Use the async function
+getUsers().then(users =&gt; {
+  users.forEach(user =&gt; console.log(user.name));
+});
+
+/* ===== Real Example: Weather API ===== */
+async function getWeather(city) {
+  const apiKey = 'your_api_key_here';
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error('City not found');
+    
+    const weather = await response.json();
+    console.log(`Temperature in ${city}: ${weather.main.temp}°C`);
+    console.log(`Weather: ${weather.weather[0].description}`);
+    
+    return weather;
+  } catch (error) {
+    console.error('Error fetching weather:', error);
+  }
+}
+
+// Call the function
+getWeather('London');</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- ES6+ Features -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#js5">
+                <span class="font-monospace">ES6+ Modern Features</span>
+              </button>
+            </h2>
+            <div id="js5" class="accordion-collapse collapse" data-bs-parent="#jsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-javascript">/* ===== Let & Const (vs Var) ===== */
+var x = 1;        // Function scoped, can be redeclared
+let y = 2;        // Block scoped, cannot be redeclared
+const z = 3;      // Block scoped, cannot be reassigned
+
+// Best practice: Use const by default, let when needed
+
+/* ===== Arrow Functions ===== */
+// Traditional function
+function add(a, b) {
+  return a + b;
+}
+
+// Arrow function
+const add = (a, b) =&gt; {
+  return a + b;
+};
+
+// Arrow function (single line)
+const add = (a, b) =&gt; a + b;
+
+// Arrow function (single parameter)
+const square = x =&gt; x * x;
+
+/* ===== Template Literals ===== */
+const name = 'Kiran';
+const age = 22;
+
+// Old way
+const intro = 'My name is ' + name + ' and I am ' + age + ' years old.';
+
+// Template literals (backticks)
+const intro = `My name is ${name} and I am ${age} years old.`;
+
+// Multi-line strings
+const bio = `
+  Name: ${name}
+  Age: ${age}
+  Role: Full Stack Developer
+`;
+
+/* ===== Destructuring ===== */
+// Object destructuring
+const user = { name: 'Kiran', email: 'kiran@example.com', age: 22 };
+const { name, email } = user;  // Extract properties
+console.log(name);  // 'Kiran'
+
+// Array destructuring
+const colors = ['red', 'green', 'blue'];
+const [first, second] = colors;
+console.log(first);  // 'red'
+
+// Function parameter destructuring
+function displayUser({ name, email, age }) {
+  console.log(`${name} (${email}), ${age} years old`);
+}
+
+/* ===== Spread Operator ===== */
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const combined = [...arr1, ...arr2];  // [1, 2, 3, 4, 5, 6]
+
+const obj1 = { name: 'Kiran', role: 'Developer' };
+const obj2 = { email: 'kiran@example.com' };
+const merged = { ...obj1, ...obj2 };
+// { name: 'Kiran', role: 'Developer', email: 'kiran@example.com' }
+
+/* ===== Default Parameters ===== */
+function greet(name = 'Guest', greeting = 'Hello') {
+  console.log(`${greeting}, ${name}!`);
+}
+
+greet();                        // 'Hello, Guest!'
+greet('Kiran');                 // 'Hello, Kiran!'
+greet('Kiran', 'Welcome');      // 'Welcome, Kiran!'
+
+/* ===== Classes (ES6) ===== */
+class Developer {
+  constructor(name, language) {
+    this.name = name;
+    this.language = language;
+  }
+  
+  introduce() {
+    return `I'm ${this.name} and I code in ${this.language}`;
+  }
+}
+
+const dev = new Developer('Kiran', 'JavaScript');
+console.log(dev.introduce());  // 'I'm Kiran and I code in JavaScript'
+
+/* ===== Promises ===== */
+const promise = new Promise((resolve, reject) =&gt; {
+  const success = true;
+  
+  if (success) {
+    resolve('Operation successful!');
+  } else {
+    reject('Operation failed!');
+  }
+});
+
+promise
+  .then(result =&gt; console.log(result))
+  .catch(error =&gt; console.error(error));</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap Code Snippets -->
+      <div class="glass-card">
+        <h4 class="fw-bold mb-3"><i class="bi bi-bootstrap-fill text-primary me-2"></i>Bootstrap 5 - Grid, Components & Forms</h4>
+        
+        <div class="accordion" id="bsAccordion">
+          <!-- Bootstrap Grid -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bs1">
+                <span class="font-monospace">12-Column Responsive Grid System</span>
+              </button>
+            </h2>
+            <div id="bs1" class="accordion-collapse collapse" data-bs-parent="#bsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;!-- Bootstrap container wraps grid --&gt;
+&lt;div class="container"&gt;
+  
+  &lt;!-- 12-column grid row --&gt;
+  &lt;div class="row"&gt;
+    
+    &lt;!-- Full width on mobile, 6 cols on tablet, 4 on desktop --&gt;
+    &lt;div class="col-12 col-md-6 col-lg-4"&gt;
+      Column 1 - Responsive Sizing
+    &lt;/div&gt;
+    
+    &lt;div class="col-12 col-md-6 col-lg-4"&gt;
+      Column 2 - Responsive Sizing
+    &lt;/div&gt;
+    
+    &lt;div class="col-12 col-md-6 col-lg-4"&gt;
+      Column 3 - Responsive Sizing
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Automatic equal columns --&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col"&gt;Column 1&lt;/div&gt;
+    &lt;div class="col"&gt;Column 2&lt;/div&gt;
+    &lt;div class="col"&gt;Column 3&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Complex layout with gaps --&gt;
+  &lt;div class="row g-3"&gt;  &lt;!-- g-3 adds gap between columns --&gt;
+    &lt;div class="col-md-8"&gt;
+      Main Content (8/12 columns)
+    &lt;/div&gt;
+    &lt;div class="col-md-4"&gt;
+      Sidebar (4/12 columns)
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bootstrap Components -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bs2">
+                <span class="font-monospace">Bootstrap Components (Card, Alert, Badge)</span>
+              </button>
+            </h2>
+            <div id="bs2" class="accordion-collapse collapse" data-bs-parent="#bsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;!-- Bootstrap Card Component --&gt;
+&lt;div class="card"&gt;
+  &lt;img src="project.jpg" class="card-img-top" alt="Project"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Project Title&lt;/h5&gt;
+    &lt;p class="card-text"&gt;Description of the project...&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary"&gt;Learn More&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Alert Component --&gt;
+&lt;div class="alert alert-success alert-dismissible fade show"&gt;
+  &lt;strong&gt;Success!&lt;/strong&gt; Form submitted successfully.
+  &lt;button type="button" class="btn-close" data-bs-dismiss="alert"&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Badge Component --&gt;
+&lt;h3&gt;
+  Frontend Development
+  &lt;span class="badge bg-primary"&gt;Beginner&lt;/span&gt;
+  &lt;span class="badge bg-success"&gt;CSS&lt;/span&gt;
+  &lt;span class="badge bg-danger"&gt;JavaScript&lt;/span&gt;
+&lt;/h3&gt;
+
+&lt;!-- Button Group --&gt;
+&lt;div class="btn-group" role="group"&gt;
+  &lt;button type="button" class="btn btn-outline-primary"&gt;Left&lt;/button&gt;
+  &lt;button type="button" class="btn btn-outline-primary"&gt;Center&lt;/button&gt;
+  &lt;button type="button" class="btn btn-outline-primary"&gt;Right&lt;/button&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bootstrap Navbar -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bs3">
+                <span class="font-monospace">Responsive Navbar with Toggle</span>
+              </button>
+            </h2>
+            <div id="bs3" class="accordion-collapse collapse" data-bs-parent="#bsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&gt;
+  &lt;div class="container-fluid"&gt;
+    
+    &lt;!-- Brand/Logo --&gt;
+    &lt;a class="navbar-brand" href="#"&gt;MyPortfolio&lt;/a&gt;
+    
+    &lt;!-- Toggle button for mobile --&gt;
+    &lt;button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"&gt;
+      &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    
+    &lt;!-- Collapsible navigation links --&gt;
+    &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
+      &lt;ul class="navbar-nav ms-auto"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active" href="#"&gt;Home&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link" href="#about"&gt;About&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item dropdown"&gt;
+          &lt;a class="nav-link dropdown-toggle" href="#" 
+             id="navbarDropdown" role="button" 
+             data-bs-toggle="dropdown" 
+             aria-expanded="false"&gt;
+            Services
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu" aria-labelledby="navbarDropdown"&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Web Design&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Development&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bootstrap Forms -->
+          <div class="accordion-item bg-dark border-secondary">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bs4">
+                <span class="font-monospace">Bootstrap Form Styling & Validation</span>
+              </button>
+            </h2>
+            <div id="bs4" class="accordion-collapse collapse" data-bs-parent="#bsAccordion">
+              <div class="accordion-body bg-dark p-0">
+                <pre class="mb-0"><code class="language-html">&lt;form class="row g-3 needs-validation" novalidate&gt;
+  
+  &lt;!-- Form group with label --&gt;
+  &lt;div class="col-md-6"&gt;
+    &lt;label for="validationName" class="form-label"&gt;Name&lt;/label&gt;
+    &lt;input type="text" 
+           class="form-control is-valid" 
+           id="validationName" 
+           required&gt;
+    &lt;div class="valid-feedback"&gt;
+      Name looks good!
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Email field with error state --&gt;
+  &lt;div class="col-md-6"&gt;
+    &lt;label for="validationEmail" class="form-label"&gt;Email&lt;/label&gt;
+    &lt;input type="email" 
+           class="form-control is-invalid" 
+           id="validationEmail" 
+           required&gt;
+    &lt;div class="invalid-feedback"&gt;
+      Please enter a valid email address.
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Select dropdown --&gt;
+  &lt;div class="col-md-6"&gt;
+    &lt;label for="validationRole" class="form-label"&gt;Role&lt;/label&gt;
+    &lt;select class="form-select" id="validationRole" required&gt;
+      &lt;option selected disabled value=""&gt;Select...&lt;/option&gt;
+      &lt;option value="developer"&gt;Developer&lt;/option&gt;
+      &lt;option value="designer"&gt;Designer&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Checkbox --&gt;
+  &lt;div class="col-12"&gt;
+    &lt;div class="form-check"&gt;
+      &lt;input class="form-check-input" type="checkbox" 
+             id="gridCheck" required&gt;
+      &lt;label class="form-check-label" for="gridCheck"&gt;
+        I agree to the terms and conditions
+      &lt;/label&gt;
+      &lt;div class="invalid-feedback"&gt;
+        You must agree before submitting.
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Submit button --&gt;
+  &lt;div class="col-12"&gt;
+    &lt;button class="btn btn-primary" type="submit"&gt;Submit&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. CONTACT SECTION & FOOTER
+       ========================================== -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 fw-bold mb-3">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="text-secondary">Have an opportunity, a project proposal, or just want to chat? Send a message below and I will get back to you shortly.</p>
+          <div class="border-bottom border-primary border-3 mx-auto" style="width: 60px;"></div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="glass-card">
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label small text-secondary">Full Name</label>
+                  <input type="text" class="form-control" id="contactName" placeholder="Enter your name" required>
+                  <div class="invalid-feedback">Please tell me your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label small text-secondary">Email Address</label>
+                  <input type="email" class="form-control" id="contactEmail" placeholder="name@domain.com" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label small text-secondary">Message (Min 10 characters)</label>
+                  <textarea class="form-control" id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+                  <div class="invalid-feedback">Please write a message (at least 10 characters).</div>
+                </div>
+                <div class="col-12 text-center mt-4">
+                  <button type="submit" class="btn btn-gradient px-5">Send Message <i class="bi bi-send-fill ms-2"></i></button>
+                </div>
+              </div>
+            </form>
+
+            <hr class="my-5 border-secondary">
+
+            <!-- Alternative channels contact info -->
+            <div class="row text-center g-4">
+              <div class="col-md-4">
+                <i class="bi bi-envelope-fill text-primary display-6 mb-2"></i>
+                <h5 class="fw-bold mb-1">Email</h5>
+                <p class="small text-secondary mb-0"><a href="mailto:kirankhula006@gmail.com">kirankhula006@gmail.com</a></p>
+              </div>
+              <div class="col-md-4">
+                <i class="bi bi-geo-alt-fill text-primary display-6 mb-2"></i>
+                <h5 class="fw-bold mb-1">Location</h5>
+                <p class="small text-secondary mb-0">Biratnagar</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       11. FOOTER
+       ========================================== -->
+  <footer class="footer-custom text-center">
+    <div class="container">
+      <div class="mb-4">
+        <!-- Social Networks Links -->
+        <a href="https://github.com/kirankhula006" target="_blank" class="social-icon-btn" aria-label="GitHub Profile"><i class="bi bi-github"></i></a>
+        <a href="https://www.facebook.com/share/1Kx1UKCtPD/" target="_blank" class="social-icon-btn" aria-label="Facebook Profile"><i class="bi bi-facebook"></i></a>
+        <a href="mailto:kirankhula006@gmail.com" class="social-icon-btn" aria-label="Email Kiran"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+      <p class="text-secondary small mb-1">&copy; 2026 Kiran Khulal. All rights reserved.</p>
+      <p class="text-muted small">Designed and coded with <i class="bi bi-heart-fill text-danger mx-1"></i> for university portfolio submission.</p>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       12. SCRIPTS IMPORTS
+       ========================================== -->
+  <!-- Bootstrap 5 Bundle JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!-- Custom portfolio script -->
+  <script src="script.js"></script>
+</body>
+</html>
