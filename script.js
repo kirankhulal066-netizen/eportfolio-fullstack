@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initCssVisualizer();
   initJsHub();
   initContactValidation();
+  initScrollSpy();
 });
 
 /* ==========================================
@@ -726,4 +727,73 @@ function initContactValidation() {
       message.classList.remove("is-valid");
     }
   });
+}
+
+/* ==========================================
+   8. SCROLLSPY – INTERSECTION OBSERVER
+   ========================================== */
+function initScrollSpy() {
+  // Collect every navbar .nav-link that points to an on-page anchor
+  const navLinks = document.querySelectorAll(".navbar-custom .nav-link[href^='#']");
+  if (!navLinks.length) return;
+
+  // Build a map: sectionId → navLink element
+  const linkMap = new Map();
+  const sections = [];
+
+  navLinks.forEach(link => {
+    const id = link.getAttribute("href").substring(1); // strip '#'
+    const section = document.getElementById(id);
+    if (section) {
+      linkMap.set(id, link);
+      sections.push(section);
+    }
+  });
+
+  if (!sections.length) return;
+
+  // Helper: set the active link, removing active from all others
+  function setActiveLink(id) {
+    navLinks.forEach(l => l.classList.remove("active"));
+    const target = linkMap.get(id);
+    if (target) target.classList.add("active");
+  }
+
+  // Track which sections are currently intersecting
+  const visibleSections = new Map();
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        const id = entry.target.id;
+        if (entry.isIntersecting) {
+          visibleSections.set(id, entry.intersectionRatio);
+        } else {
+          visibleSections.delete(id);
+        }
+      });
+
+      // Pick the section closest to the top of the viewport among those visible.
+      // We iterate in DOM order (same as the sections array) and pick the first
+      // one that is currently intersecting — this naturally favours the topmost.
+      if (visibleSections.size > 0) {
+        for (const section of sections) {
+          if (visibleSections.has(section.id)) {
+            setActiveLink(section.id);
+            break;
+          }
+        }
+      }
+    },
+    {
+      // Negative top margin triggers early (accounts for sticky navbar ~80px).
+      // Negative bottom margin shrinks the effective detection zone so a section
+      // is considered "in view" when it occupies the upper half of the viewport.
+      rootMargin: "-80px 0px -50% 0px",
+      threshold: 0
+    }
+  );
+
+  // Observe every matching section
+  sections.forEach(section => observer.observe(section));
 }
